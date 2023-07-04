@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Fasthand&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+.body {
+  font-family: "Fasthand", cursive;
+  background-image: url("../Images/bg6.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  font-size:xx-large;
+  color: aliceblue;
+}
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: aliceblue;
+    padding: 15px;
+}
+.bx{
+    align-self: center;
+    cursor: pointer;
+}
+.section {
+  text-align: center;
+}
+.shop {
+  font-size: x-large;
+  color: aliceblue;
+}
+/* .card {
+  font-size: larger;
+  display: inline-flex;
+  justify-content: center;
+} */
+.tab{
+    width: 100%;
+}
+.img{
+    width: 60%;
+    height: 60%;
+    background-color: aliceblue;
+}
+.box{
+    margin: 5px;
+    border:5px solid black;
+    padding: 25px;
+    width: 270px;
+    height: 400px;
+    background-image: url(../Images/bg7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    display: inline-flex;
+}
+.rate{
+    display: flex;
+    justify-content: space-between;
+}

@@ -5,98 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="../../css/bootstrap.min.css">
 </head>
 
-<body>
+<body class="body">
     <!-- Header -->
     <header>
-        <nav>
+        <nav class="navbar">
             <a href="">
-                <h1>SHOPPING CART </h1>
+                <h1 class="head">Shopping Cart </h1>
             </a>
+            <i class='bx bxs-cart-download bx-lg'></i>
         </nav>
-        <i class='bx bxs-shopping-bag-alt bx-md' style="float:inline-start"></i>
     </header>
     <!-- Shopping Section -->
-    <section style="text-align: center;">
-        <div>
+    <section class="section">
+        <div class="shop">
             <h2>Shopping Products</h1>
         </div>
         <div>
-            <table style="width: 100%;">
-                <tr>
-                    <td>
-                        <div>
-                            <img src="../Images/pic2.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Headphones</h3>
-                            <span>₹2599</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic3.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Smart Watch</h3>
-                            <span>₹899</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic4.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Ear Pods</h3>
-                            <span>₹599</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic5.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Mouse</h3>
-                            <span>₹399</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic10.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Power Bank</h3>
-                            <span>₹899</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div>
-                            <img src="../Images/pic6.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Data Cards</h3>
-                            <span>₹2499</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic7.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Laptop Case</h3>
-                            <span>₹632</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                    <td>
-                        <div>
-                            <img src="../Images/pic8.webp" alt="Image not found" style="width: 200px;">
-                            <h3>Pen Drive</h3>
-                            <span>₹399</span>
-                            <i class='bx bxs-shopping-bag-alt bx-sm'></i>
-                        </div>
-                    </td>
-                </tr>
-            </table>
+            <div class="row">
+                <div class="box">
+                    <img src="../Images/Headphone.webp" alt="Image not found" class="img">
+                    <h3>Headphones</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹2599</span>
+                        <i class='b bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/SmartWatch.webp" alt="Image not found" class="img">
+                    <h3>Smart Watch</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹899</span>
+                    <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/EarPods.webp" alt="Image not found" class="img">
+                    <h3>Ear Pods</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹599</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/Mouse.webp" alt="Image not found" class="img">
+                    <h3>Mouse</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹399</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <img src="../Images/PowerBank.webp" alt="Image not found" class="img">
+                    <h3>Power Bank</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹899</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/DataCard.webp" alt="Image not found" class="img">
+                    <h3>Data Cards</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹2499</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/LaptopCase.webp" alt="Image not found" class="img">
+                    <h3>Laptop Case</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹632</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="../Images/PenDrive.webp" alt="Image not found" class="img">
+                    <h3>Pen Drive</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
+                    <div class="rate">
+                        <span>₹399</span>
+                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </section>
     <script src="../../js/bootstrap.bundle.min.js"></script>
 </body>
