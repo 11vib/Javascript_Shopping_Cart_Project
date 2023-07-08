@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Fasthand&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+/* javascript is used to put logic and functionality to our website */
+*{
+  font-family: "Fasthand", cursive;
+}
 .body {
   font-family: "Fasthand", cursive;
   background-image: url("../Images/bg6.jpg") ;
@@ -57,4 +61,53 @@
 .rate{
     display: flex;
     justify-content: space-between;
+}
+
+.cart{
+  align-content: center;
+  margin: 20px;
+}
+.cart-img{
+  width: 200px;
+  height: 60%;
+}
+.cart-total{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-content{
+  margin: 5px;
+  border:5px solid black;
+  padding: 25px;
+  width: 200px;
+  height: 350px;
+  font-size: larger;
+}
+.btn-order:hover{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.cart-title{
+  text-align: center;
+  font-size: xx-large;
+}
+.home{
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.back{
+  font-size: x-large;
+  color: aliceblue;
+}
+.delete{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-nav{
+  color: white;
 }
